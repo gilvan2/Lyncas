@@ -74,8 +74,12 @@ public class Conta {
         this.descricao = descricao;
     }
 
-    enum Situacao {
-        PENDENTE, PAGO, ATRASADO
+    public Situacao getSituacao() {
+        return situacao;
+    }
+
+    public void setSituacao(Situacao situacao) {
+        this.situacao = situacao;
     }
 }
 
